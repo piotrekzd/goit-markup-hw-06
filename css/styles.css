@@ -803,7 +803,7 @@ p {
   position: absolute;
 }
 
-.label-signup {
+.signup-label {
   display: flex;
   flex-direction: column;
 }

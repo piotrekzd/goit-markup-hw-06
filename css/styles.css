@@ -595,7 +595,10 @@ p {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+}
+
+.address {
+  width: 247px;
 }
 
 .logo-footer {
@@ -645,7 +648,7 @@ p {
 
 .footer-left {
   margin-top: 72px;
-  margin-left: 66px;
+  margin-left: 70px;
   display: flex;
   align-content: center;
   flex-direction: column;

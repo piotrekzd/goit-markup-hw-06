@@ -384,6 +384,15 @@
           </li>
         </ul>
       </div>
+      <div class="footer-newsletter">
+        <h5 class="newsletter-header">zapisz się do newslettera</h5>
+        <form class="newsletter-form" name="newsletter" autocomplete="off">
+          <label class="newsletter-label">
+            <input class="newsletter-input" type="email" name="newsletter-email" placeholder="E-mail" />
+          </label>
+          <button class="newsletter-button" type="submit">Zapisz się</button>
+        </form>
+      </div>
     </div>
   </footer>
 
@@ -393,7 +402,27 @@
         <svg class="close-black" width="11px" height="11px">
           <use href="./images/icons.svg#close-black"></use>
         </svg>
-      </button> 
+      </button>
+      <form name="signup-form" autocomplete="off" class="signup_form">
+        <h6 class="signup-form-header">Zostaw swoje dane w formularzu poniżej</h6>
+        <lable class="label-signup">Imię
+          <input type="text" name="username" />
+        </lable>
+        <lable class="label-signup">Telefon
+          <input type="tel" name="phone_number" />
+        </lable>
+        <lable class="label-signup">Email
+          <input type="email" name="email" required />
+        </lable>
+        <lable class="label-signup">Komentarz
+          <textarea name="comment" rows="5" placeholder="Wprowadź tekst"></textarea>
+        </lable>
+        <lable class="label-signup">
+          <input type="checkbox" name="checkbox">
+          Oświadczam, iż akceptuję <a class="checkbox-link link" href="#">Regulamin</a> i <a class="checkbox-link link" href="#">Politykę Prywatności.</a>
+        </lable>
+        <button class="submit">Wyślij</button>
+      </form> 
     </div>
   </div>
 
